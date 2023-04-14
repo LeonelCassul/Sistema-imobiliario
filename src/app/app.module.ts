@@ -7,6 +7,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { SobrenosComponent } from './sobrenos/sobrenos.component';
 import { CaptacaoComponent } from './captacao/captacao.component';
 import { TeamComponent } from './team/team.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TeamComponent } from './team/team.component';
     ContactoComponent,
     SobrenosComponent,
     CaptacaoComponent,
-    TeamComponent
+    TeamComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
