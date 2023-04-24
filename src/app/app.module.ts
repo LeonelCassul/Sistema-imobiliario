@@ -3,21 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactoComponent } from './contacto/contacto.component';
-import { SobrenosComponent } from './sobrenos/sobrenos.component';
-import { CaptacaoComponent } from './captacao/captacao.component';
-import { TeamComponent } from './team/team.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { SobrenosComponent } from './sobrenos/sobrenos.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { ImoveisComponent } from './imoveis/imoveis.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { BannerComponent } from './banner/banner.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactoComponent,
+    NavbarComponent,
+    HomeComponent,
     SobrenosComponent,
-    CaptacaoComponent,
-    TeamComponent,
-    HomeComponent
-  ],
+    ContactoComponent,
+    ImoveisComponent,
+    CadastrarComponent,
+    BannerComponent,
+     ],
   imports: [
     BrowserModule,
     AppRoutingModule
