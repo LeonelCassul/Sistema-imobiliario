@@ -1,0 +1,7 @@
+#main-banner{
+  background: url('src/assets/sobre-nós.png');
+  background-size: cover;
+  background-position: 0 55%;
+  position: relative;
+  margin-top: auto;
+}
