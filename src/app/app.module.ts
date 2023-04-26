@@ -10,6 +10,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { ImoveisComponent } from './imoveis/imoveis.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { BannerComponent } from './banner/banner.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { BannerComponent } from './banner/banner.component';
     ImoveisComponent,
     CadastrarComponent,
     BannerComponent,
+    FooterComponent,
      ],
   imports: [
     BrowserModule,

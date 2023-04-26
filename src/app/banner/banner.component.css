@@ -1,7 +1,43 @@
 #main-banner{
-  background: url('src/assets/sobre-nós.png');
+  background: url('src/assets/sobre-nós.png') no-repeat;
   background-size: cover;
   background-position: 0 55%;
   position: relative;
-  margin-top: auto;
+  margin-top: 100px;
+}
+#search-form{
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15em;
+  padding-bottom: 15em;
+  text-align: center;
+}
+
+#search-form p {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-weight: 300;
+}
+#search-form input, #search-form select{
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 5px 40px;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+#search-form input[type=submit] {
+background-color: #3381F3;
+text-transform: uppercase;
+color: #fff;
+cursor: pointer;
+transition: 0.5%;
+}
+
+#search-form input[type=submit]:hover {
+  background-color: #2b79eb;
 }
