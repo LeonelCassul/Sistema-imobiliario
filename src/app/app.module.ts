@@ -11,6 +11,7 @@ import { ImoveisComponent } from './imoveis/imoveis.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
+import { AnotherComponent } from './another/another.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
     CadastrarComponent,
     BannerComponent,
     FooterComponent,
+    AnotherComponent,
      ],
   imports: [
     BrowserModule,

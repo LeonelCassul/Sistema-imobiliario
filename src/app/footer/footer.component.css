@@ -2,52 +2,52 @@ footer {
 background-color: #666;
 padding-top: 5em;
 padding-bottom: 40px;
-border-top:  5px solid #3381f3;
+border-top: 5px solid #3381f3;
 
 }
 
-footer h2, footer p, footer a, footer span{
+footer h2, footer p, footer a, footer span {
   color: #d1d1d1;
 }
-footer {
+footer h2 {
   font-weight: 400;
 }
-footer a{
+footer a {
   text-decoration: none;
 }
-footer ul{
+footer ul {
   padding: 0;
 }
 
 footer li {
   list-style: none;
 }
-.footer-box{
+.footer-box {
   width: 31%;
   padding: 1%;
   float: left;
 
 }
 
-footer .wrapper:after{
+footer .wrapper:after {
   clear: both;
-  content:¨¨;
+  content: "";
   display: block;
 }
-.company-footer{
+.company-footer {
   width: 80%;
 }
-.company-footer h2{
+.company-footer h2 {
   margin-top: 20px;
 }
-.company-footer h2, .company-footer p{
+.company-footer h2, .company-footer p {
   margin-bottom: 20px;
 }
-.footer-list li{
+.footer-list li {
   margin-bottom: 15px;
 }
 
-.footer-list a{
+.footer-list a {
   transition: .5s;
 }
 
@@ -56,9 +56,9 @@ footer .wrapper:after{
 
 }
 
-.footer-list li:hover{
+.footer-list li:after{
   clear:both;
-  content: ¨¨;
+  content: "";
   display: block;
 }
 .articles-footer{
@@ -79,11 +79,11 @@ footer .wrapper:after{
   height: 30px;
   line-height: 30px;
 }
-.footer-botton{
+.footer-bottom{
   border-top: 1px solid #b2b2b2;
 
 }
-.footer-botton p{
+.footer-bottom p{
   font-weight: 600;
   margin-top: 40px;
 }
